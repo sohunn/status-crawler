@@ -4,7 +4,7 @@ This is a simple tool used to detect dead links on a website and summarize their
 ## Features
 - Supports and validates links using `http` and `https` schemes.
 - Uses [playwright](https://pkg.go.dev/github.com/playwright-community/playwright-go) to perform efficient web scraping.
-- Leverages the power go-routines with mutexes, wait groups and distributed locking mechanisms to increase performance and concurrency. 🚀
+- Leverages the power of go-routines with mutexes, wait groups and distributed locking mechanisms to increase performance and concurrency. 🚀
 - Clean summary in a tabular format. 
 
 
