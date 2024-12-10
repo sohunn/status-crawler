@@ -11,17 +11,22 @@ This is a simple tool used to detect dead links on a website and summarize their
 ## How to use
 - Make sure you have the latest version of [go](https://go.dev/dl/) installed.
 
-- Clone the repository using the following command.
+- Clone the repository using the following command:
 ```
 git clone https://github.com/sohunn/status-crawler.git
 ```
 
-- Install dependencies.
+- Install dependencies:
 ``` 
 go mod tidy
 ```
 
-- From the root of the project
+- Make sure to install the browsers and OS dependencies:
+```
+go run github.com/playwright-community/playwright-go/cmd/playwright@latest install --with-deps
+```
+
+- From the root of the project:
 ```
 go run ./ <URL>
 ```
